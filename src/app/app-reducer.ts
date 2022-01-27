@@ -46,10 +46,12 @@ export const initializeAppTC = () => (dispatch: Dispatch) => {
         debugger
         if (res.data.resultCode === 0) {
             dispatch(setIsLoggedInAC(true));
-            dispatch(initializeAppAC())
-        } else {
+
         }
     })
+        .finally(()=>{
+            dispatch(initializeAppAC())
+        })
 }
 
 type initializeAppActonType = ReturnType<typeof initializeAppAC>
