@@ -1,7 +1,7 @@
 {
   "name": "todo16v2",
   "homepage": "https://fabskrejt.github.io/todolist-wed/",
-  "version",: "0.1.0",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.4.1",
